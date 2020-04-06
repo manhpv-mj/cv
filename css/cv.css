@@ -1,0 +1,363 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#particles-js {
+    background-image: url(../image/nen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.menu {
+    position: relative;
+    z-index: 1000;
+    background-color: #ffff;
+    width: 8%;
+    border-radius: 10px;
+    margin: 12% 3% 0 0;
+
+}
+
+.menu ul {
+    list-style: none;
+    margin: 10px auto;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.menu ul li {
+    text-align: center;
+}
+
+.menu ul li:hover {
+    color: #0856c1;
+}
+
+.menu ul li p {
+    font-size: 10px;
+    padding-top: 0.8em;
+}
+
+.banner {
+    position: relative;
+    background-size: cover;
+    width: 35%;
+    background-color: #ffff;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5%;
+    z-index: 10;
+}
+
+.banner .anh {
+    position: relative;
+}
+
+.banner .anhbia img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner .anh img {
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+.banner .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner .title h3 {
+    font-weight: 600;
+}
+
+.banner .title p {
+    text-align: center;
+    color: #0856c1;
+}
+
+.banner .title ul {
+    margin: 5px auto;
+    line-height: 1.4;
+    padding-left: 0;
+
+}
+
+.banner .title ul li {
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.banner .dowload {
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.banner .dowload a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner .dowload a:hover {
+    color: #0856c1;
+}
+
+.main {
+    width: 45%;
+    margin-top: 7%;
+
+}
+
+.main .about,
+.exp,
+.educa,
+.skill,
+.works,
+.contact {
+    background-image: url("../image/4.jpg");
+    position: absolute;
+    width: 35%;
+    z-index: 8;
+    height: 550px;
+    font-family: monospace;
+    color: #0856c1;
+
+}
+
+h4 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0.5em auto;
+    font-family: cursive !important;
+    color: #0856c1;
+
+}
+
+.main h3 {
+    color: #0856c1;
+    font-family: cursive;
+    font-size: 1.5em;
+
+}
+
+.main p {
+    font-family: monospace;
+    color: black;
+    padding: 1.5em 0 0 2em;
+    font-size: 1.1em;
+}
+
+.main .about table {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.main table tr td strong {
+    font-family: initial;
+    color: #0856c1;
+}
+
+.main .exp {
+    overflow-y: scroll;
+
+}
+
+.main .exp::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.main .exp::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.main .exp::-webkit-scrollbar-thumb {
+    background-color: #3366FF;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg,
+            rgba(255, 255, 255, 0.5) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0.5) 75%,
+            transparent 75%,
+            transparent)
+}
+
+.main .exp ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main .exp ul li {
+    margin: 2em 0 0 3em;
+}
+
+.main .exp ul li p {
+    padding: 2px 0px 0px 2em;
+    color: black;
+}
+
+.main .skill .progress {
+    width: 85%;
+    height: 0.6em;
+    margin: 1.5em 0 0 2em;
+}
+
+.main .skill h3 {
+    font-size: 1em;
+    padding: 1em 0 0 2em;
+}
+
+.main .skill .all_skill {
+    margin-top: 3em;
+}
+
+.main .works {
+    overflow-y: scroll;
+}
+
+.main .works::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.main .works::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.main .works::-webkit-scrollbar-thumb {
+    background-color: #3366FF;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg,
+            rgba(255, 255, 255, 0.5) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0.5) 75%,
+            transparent 75%,
+            transparent)
+}
+.main .about{
+    overflow-x: auto;
+}
+.main .contact .map {
+    width: 90%;
+    margin: auto;
+}
+
+@media all and (min-width: 768px) {
+    .menu {
+        float: left;
+    }
+
+    .banner {
+        float: left;
+    }
+
+    .main {
+        float: left;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body{
+        overflow-y: scroll;
+    }
+    #particles-js{
+        height: 1550px !important;
+    }
+    .container {
+        width: 100% !important;
+    }
+    .menu {
+        width: 96%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 3% auto !important;
+
+    }
+
+    .menu ul {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        position: absolute;
+
+    }
+
+    .menu ul li {
+        width: 16%;
+        height: 60px;
+        float: left;
+        padding-top: 10px;
+    }
+    
+    .menu hr {
+      display: none;
+    }
+    .banner{
+      width: 100%;
+      height: auto !important;
+      position: relative;
+      top: 5em;
+      border-radius: 10px;
+      
+
+    }
+    .main .about,
+    .exp,
+    .educa,
+    .skill,
+    .works,
+    .contact{
+        width: 96%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 6em auto !important;
+        border-radius: 10px;
+        
+    }
+    .main .works {
+        overflow-y: scroll;
+        height: calc(100vh - 70px);
+        min-height: 100%;
+    }
+}
+@media only screen and (min-width: 476px) and (max-width: 768px){
+    #particles-js{
+        height: 1550px !important;
+    }
+ }
