@@ -2,253 +2,373 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lê Công Khánh | CV Online</title>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- <script src="{{url('js/bootstrap.min.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{url('css/turntable.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('css/turntable.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('font-awesome/css/font-awesome.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{url('css/style_update.css')}}" /> -->
     <script src="./bosstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/cv.js"></script>
-    <link rel="stylesheet" type="text/css" href="./bosstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/cv.css">
-
+    <link rel="stylesheet" type="text/css" href="./turntable/css/turntable.css" />
+    <link rel="stylesheet" type="text/css" href="./turntable/css/turntable.min.css" />
+    <link rel="stylesheet" type="text/css" href="./bosstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_update.css" />
 </head>
 
 <body>
     <div id="particles-js"></div>
-    <div class="container">
-        <div class="menu">
-            <ul>
-                <li>
-                    <div class="click1"><i class="fa fa-user fa-lg"></i>
-                        <p>ABOUT</p>
-                    </div>
-                </li>
-                <hr>
-                <li>
-                    <div class="click2">
-                        <i class="fa fa-briefcase fa-lg"></i>
-                        <p>EXP</p>
-                    </div>
-                </li>
-                <hr>
-                <li>
-                    <div class="click3">
-                        <i class="fa fa-graduation-cap fa-lg"></i>
-                        <p>EDUCA</p>
-                    </div>
-                </li>
-                <hr>
-                <li>
-                    <div class="click4">
-                        <i class="fa fa-star fa-lg"></i>
-                        <p>SKILL</p>
-                    </div>
-                </li>
-                <hr>
-                <li>
-                    <div class="click5">
-                        <i class="fa fa-paint-brush fa-lg"></i>
-                        <p>WORKS</p>
-                    </div>
-                </li>
-                <hr>
-                <li>
-                    <div class="click6">
-                        <i class="fa fa-envelope fa-lg"></i>
-                        <p>CONTACT</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="banner">
-            <div class="anhbia">
-                <img src="./image/ảnh bìa.jpg">
-            </div>
-            <div class="anh">
-                <img src="./image/1.jpg">
-            </div>
-            <div class="title">
-                <h3>Lê Công Khánh</h3>
-                <p>Web Developer</p>
+    <div class="con-position">
+        <div class="row">
+            <div class="menu col-lg-2 col-md-12 col-xs-12">
                 <ul>
-                    <li><a href="https://www.facebook.com/kaka.tak.921"><i class="fa fa-facebook-square"></i></a>
+                    <li class="click active" id="1">
+                        <div>
+                            <i class="fa fa-user fa-lg"></i>
+                            <p>BẢN THÂN</p>
+                        </div>
                     </li>
-                    <li><a href="https://github.com/020996"><i class="fa fa-github-square"></i></a></li>
-                    <li><a href="skype:live:lecongkhanh020996_1"><i class="fa fa-skype"></i></a></i></li>
-                    <li><a href="https://stackoverflow.com/"><i class="fa fa-stack-overflow"></i></a></li>
-                </ul>
-            </div>
-            <div class="dowload"><a href="./image/LE-CONG-KHANH-CV.pdf" download="LE-CONG-KHANH-CV">Dowload CV <i
-                        class="fa fa-arrow-circle-down"></i></a></div>
-        </div>
-        <div class="main">
-            <div class="about">
-                <h4>About Me</h4>
-                <p>
-                    Xin chào, tôi là khánh sinh ra và lớn lên ở Nghệ An...<br>
-                    Hiện tôi đang sinh sống và làm việc tại Hà Nội.<br>
-                    Nghề nghiệp chính là Lập trình Website. <br>
-                </p>
-                <!-- <div class="row">
-                           <div class="col-md-5">
-                            Xin chào, tôi là khánh sinh ra và lớn lên ở Nghệ An...<br>
-                            Hiện tôi đang sinh sống và làm việc tại Hà Nội.<br>
-                            Nghề nghiệp chính là Lập trình Website. <br>
-                           </div>
-                           <div class="col-md-5">
-                            Xin chào, tôi là khánh sinh ra và lớn lên ở Nghệ An...<br>
-                            Hiện tôi đang sinh sống và làm việc tại Hà Nội.<br>
-                            Nghề nghiệp chính là Lập trình Website. <br>
-                           </div>
-                    </div> -->
-                <div class="table-responsive-lg">
-                    <table class="table">
-                        <tr>
-                            <td><strong>GENDER </strong></td>
-                            <td>Nam</td>
-
-                        </tr>
-                        <tr>
-                            <td><strong>PHONE </strong></td>
-                            <td>0399233237</td>
-                        </tr>
-                        <tr>
-                            <td><strong>EMAIL </strong></td>
-                            <td>Lecongkhanh020996@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td><strong>BIRTHDAY </strong></td>
-                            <td>02 - 09 - 1996</td>
-                        </tr>
-                        <tr>
-                            <td><strong>ADDRESS </strong></td>
-                            <td>Nhổn - Bắc từ liêm <i class="fa fa-arrow-right"></i> Nghi Lộc - Nghệ An</td>
-                        </tr>
-                    </table>
-                </div>
-                <!-- <ul>
-                        <li><strong>Gender </strong> <span>Nam</span> </li>
-                        <li><strong>PHONE </strong> <span>0399233237</span> </li>
-                        <li><strong>EMAIL </strong><span>Lecongkhanh020996@gmail.com</span></li>
-                        <li><strong>BIRTHDAY </strong><span>02 - 09 - 1996</span></li>
-                        <li><strong>ADDRESS </strong> <span>Nhổn - Bắc từ liêm <i class="fa fa-arrow-right"></i> Nghi Lộc - Nghệ An</span> </li>
-                    </ul> -->
-
-            </div>
-            <div class="exp">
-                <h4>Experience</h4>
-                <ul>
-                    <li>
-                        <h3>DTT Technology Group</h3>
-                        <p>12/2019-Đến Nay</p>
-                        <p>Thực tập sinh PHP</p>
-                        <p>Nghiên cứu và phát triển Framework Codeigniter</p>
-
+                    <li class="click" id="2">
+                        <div>
+                            <i class="fa fa-briefcase fa-lg"></i>
+                            <p>KINH NGHIỆM</p>
+                        </div>
                     </li>
-                    <li>
-                        <h3>Thành tích đạt được</h3>
-                        <p>Hoàn thành nhiệm vụ được giao</p>
-                        <p>Tự giác và chịu khó học hỏi để hoàn thiện bản thân</p>
-                        <p>Có khả năng sắp xếp công việc và quản lý thời gian</p>
-                        <p>Có khả năng làm việc với môi trường áp lực cao</p>
-                        <p>Có kỹ năng giao tiếp</p>
+                    <li class="click" id="3">
+                        <div>
+                            <i class="fa fa-graduation-cap fa-lg"></i>
+                            <p>TRƯỜNG HỌC</p>
+                        </div>
+                    </li>
+                    <li class="click" id="4">
+                        <div>
+                            <i class="fa fa-star fa-lg"></i>
+                            <p>KỸ NĂNG</p>
+                        </div>
+                    </li>
+                    <li class="click" id="5">
+                        <div>
+                            <i class="fa fa-paint-brush fa-lg"></i>
+                            <p>DỰ ÁN</p>
+                        </div>
+                    </li>
+                    <li class="click" id="6">
+                        <div>
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <p>LIÊN HỆ</p>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="educa">
-                <h4>Education</h4>
-                <ul>
-                    <li>
-                        <h3>Cao đẳng điện</h3>
-                        <p>2016-2018</p>
-                        <p>Quảng Ninh</p>
-                    </li>
-                    <li>
-                        <h3>Hệ Thống Đào Tạo CNTT T3H Cơ Sở Hà Nội</h3>
-                        <p>6/2019 - 12/2019</p>
-                        <p>Khóa học PHP-Laravel Fullstack</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="skill">
-                <h4>My Skill</h4>
-                <div class="all_skill">
-                    <h3>HTML-CSS-BOOTSTRAP</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:80%">
-                        </div>
-                    </div>
-                    <h3>JQUERY-JS-AJAX</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:60%">
-                        </div>
-                    </div>
-                    <h3>LARAVEL-MYSQL</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%">
-                        </div>
-                    </div>
-                    <h3>CI-MYSQL</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:75%">
-                        </div>
-                    </div>
-                    <h3>GIT</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:50%">
+            <div class="main col-lg-5 col-md-12 col-xs-12">
+                <div class="main-top">
+                    <div class="image-circle">
+                        <div id="myTurntable" class="turntable">
+                            <ul id="ul-html"></ul>
                         </div>
                     </div>
                 </div>
+                <div class="main-bottom">
+                    <div class="bottom-title">
+                        <h3>Lê Công Khánh</h3>
+                        <p>Mobile Web Developer</p>
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/kaka.tak.921"><i
+                                        class="fa fa-facebook-square"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://github.com/020996"><i
+                                        class="fa fa-github-square"></i></a></li>
+                            <li><a target="_blank" href="skype:live:lecongkhanh020996_1"><i
+                                        class="fa fa-skype"></i></a></i></li>
+                            <li><a target="_blank" href="https://stackoverflow.com/"><i
+                                        class="fa fa-stack-overflow"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-dowload" target="_blank"><a href="./image/LE-CONG-KHANH-CV.pdf"
+                            download="LE-CONG-KHANH-CV">Download CV <i class="fa fa-arrow-circle-down"></i></a></div>
+                </div>
             </div>
-            <div class="works">
-                <h4>Works</h4>
-                <ul>
-                    <li>
-                        <h3>Project web bán điện thoại </h3>
-                        <p>Công nghệ sử dụng Laravel-Mysql</p>
-                        <h6>+Chức năng</h6>
-                        <p>Tìm kiếm, thông báo, quản lý sản phẩm, đơn đặt hàng..</p>
-                        <p>Bình luận người dùng..</p>
-                        <p>ckeck login, logout..</p>
-                        <p>Thống kê hoạt động của user..</p>
-                        <p>Code chức năng giỏ hàng..</p>
-                        <h6>Project</h6>
-                        <p><a
-                                href="https://github.com/020996/demo_dienthoai">https://github.com/020996/demo_dienthoai</a>
-                        </p>
-                        <p><a href="https://github.com/020996/CI_demo_DTT">https://github.com/020996/CI_demo_DTT</a></p>
-                    </li>
-                    <li>
-                        <h3>Dự án stemup - DTT</h3>
-                        <h6>+ Vị Trí</h6>
-                        <p>Công nghệ sử dụng Codeigniter-Mysql</p>
-                        <p>Master layout cho phần mền</p>
-                        <p>Code chức năng chỉnh, sửa, xóa</p>
-                        <p>Chức năng thông báo, tìm kiếm..</p>
-                        <p>Ckeck login secction, cookie...</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h4>Contact</h4>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.7457445945578!2d105.72808272919345!3d21.073342050536464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455aecfdf535d%3A0x82a2394c8806d1bd!2zMTA4IFTDonkgVOG7sXUsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1585808666011!5m2!1svi!2s"
-                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+            <div class="description col-lg-5 col-md-12 col-xs-12">
+                <!-- about -->
+                <div id="about" class="about">
+                    <h4>GIỚI THIỆU BẢN THÂN</h4>
+                    <div class="table-column">
+                        <hr class="hr-start">
+                        <div class="row-table">
+                            <p>Họ Và Tên</p>
+                            <p>Lê Công Khánh</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Giới Tính</p>
+                            <p>Nam</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Ngày Sinh</p>
+                            <p>20/09/1996</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Liên Hệ</p>
+                            <p>0399233237</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Quê Quán</p>
+                            <p>Nghi Lộc - Nghệ An</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Tạm Trú</p>
+                            <p>Mỹ Đình - Hà Nội</p>
+                        </div>
+                        <hr class="hr-end">
+                    </div>
+                </div>
+                <!-- exp -->
+                <div id="exp" class="exp">
+                    <h4>KINH NGHIỆM</h4>
+                    <div class="table-column">
+                        <hr class="hr-start">
+                        <div class="row-table">
+                            <p>Công Ty</p>
+                            <p>ABC Software</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Thời Gian</p>
+                            <p>3/2021 - Hiện Tại</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Vị Trí</p>
+                            <p>FrontEnd Developer</p>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <p>Công Ty</p>
+                            <p>DTT Technology</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Thời Gian</p>
+                            <p>12/2019 - 3/2021</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Vị Trí</p>
+                            <p>FullStack Developer</p>
+                        </div>
+                        <hr class="hr-end">
+                    </div>
+                </div>
+                <!-- EDUCA -->
+                <div id="educa" class="educa">
+                    <h4>TRƯỜNG HỌC</h4>
+                    <div class="table-column">
+                        <hr class="hr-start">
+                        <div class="row-table">
+                            <p>Trường Học</p>
+                            <p>Cao Đẳng Hạ Long</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Thời Gian</p>
+                            <p>06/2014 -> 06/2017</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Chuyên Ngành</p>
+                            <p>Công Nghệ Thông Tin</p>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <p>Trung Tâm</p>
+                            <p>Viện Công Nghệ T3H</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Thời Gian</p>
+                            <p>01/2019 -> 12/2019</p>
+                        </div>
+                        <div class="row-table">
+                            <p>Chuyên Ngành</p>
+                            <p>Lập Trình Web - Mobile</p>
+                        </div>
+                        <hr class="hr-end">
+                    </div>
+                </div>
+                <!-- skill -->
+                <div id="skill" class="skill">
+                    <h4>KỸ NĂNG</h4>
+                    <div class="table-column">
+                        <hr class="hr-start">
+                        <div class="row-table">
+                            <div class="row-title">React Native React</div>
+                            <div class="row-content">
+                                <p>Nắm chắc kiến thức cơ bản về React, JS, TypeScript</p>
+                                <p>Có hiểu biết về Redux (Thunk, Saga, Observable)</p>
+                                <p>React-native hooks với component</p>
+                                <p>Tích hợp và dùng thư viện</p>
+                            </div>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <div class="row-title">PHP</div>
+                            <div class="row-content">
+                                <p>Nắm chắc kiến thức cơ bản về HTML, CSS, JS, AJAX,GIT</p>
+                                <p>Làm việc dự án web theo mô hình MVC</p>
+                                <p>Làm việc với cơ sở dữ liệu MySQL</p>
+                                <p>Đã làm việc với Framework Laravel, Codeigniter</p>
+                            </div>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <div class="row-title">Shopify Liquid</div>
+                            <div class="row-content">
+                                <p>Làm việc với Theme, ứng dụng Shopify</p>
+                                <p>Làm việc với file liquid</p>
+                                <p>Làm việc Shopify Git</p>
+                            </div>
+                        </div>
+                        <hr class="hr-end">
+                    </div>
+                </div>
+                <!-- works -->
+                <div id="works" class="works">
+                    <h4>DỰ ÁN</h4>
+                    <div class="table-column">
+                        <hr class="hr-start">
+                        <div class="row-table">
+                            <div class="row-title">STEMUP</div>
+                            <div class="row-content">
+                                <p>PHP (CI)</p>
+                                <p><a target="_black" href="https://stemup.app">https://stemup.app</a></p>
+                                <p>React Native (Thunk)</p>
+                                <p><a target="_black" href="https://play.google.com/store/apps/developer?id=DTT+Technology+Group&hl=vi">https://play.google.com/store/apps/developer?id=DTT+Technology+Group&hl=vi</a></p>
+                                <p><a target="_black" href="https://apps.apple.com/us/developer/dtt/id1277566580">https://apps.apple.com/us/developer/dtt/id1277566580</a></p>
+                            </div>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <div class="row-title">Dịch Vụ Công</div>
+                            <div class="row-content">
+                                <p>React Native (Saga)</p>
+                                <p><a target="_black" href="https://play.google.com/store/apps/details?id=vn.gov.moh.dichvucong&showAllReviews=true">https://play.google.com/store/apps/details?id=vn.gov.moh.dichvucong&showAllReviews=true</a>
+                                </p>
+                                <p><a target="_black" href="https://apps.apple.com/vn/app/d%E1%BB%8Bch-v%E1%BB%A5-c%C3%B4ng-b%E1%BB%99-y-t%E1%BA%BF/id1559676840">https://apps.apple.com/vn/app/d%E1%BB%8Bch-v%E1%BB%A5-c%C3%B4ng-b%E1%BB%99-y-t%E1%BA%BF/id1559676840</a>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <div class="row-title">An Toàn Covid</div>
+                            <div class="row-content">
+                                <p>PHP (LARAVEL)</p>
+                                <p><a target="_black" href="https://antoancovid.vn">https://antoancovid.vn</a></p>
+                                <p>React Native (Saga)</p>
+                                <p><a target="_black" href="https://play.google.com/store/apps/details?id=gov.moh.antoancovid&hl=en&gl=US&showAllReviews=true">https://play.google.com/store/apps/details?id=gov.moh.antoancovid&hl=en&gl=US&showAllReviews=true</a>
+                                </p>
+                                <p><a target="_black" href="https://apps.apple.com/us/app/an-to%C3%A0n-covid19/id1534840770#?platform=iphone">https://apps.apple.com/us/app/an-to%C3%A0n-covid19/id1534840770#?platform=iphone</a></p>
+                            </div>
+                        </div>
+                        <hr class="hr-main">
+                        <div class="row-table">
+                            <div class="row-title">Mighty Jaxx</div>
+                            <div class="row-content">
+                                <p>Shopify (Liquid)</p>
+                                <p><a target="_black" href="https://mightyjaxx.com">https://mightyjaxx.com</a></p>
+                                <p>React Native (Observable)</p>
+                                <p><a target="_black" href="https://play.google.com/store/apps/details?id=com.mightyjaxx">https://play.google.com/store/apps/details?id=com.mightyjaxx</a></p>
+                                <p><a  href="https://apps.apple.com/sg/app/mighty-jaxx-store/id1488637292">https://apps.apple.com/sg/app/mighty-jaxx-store/id1488637292</a></p>
+                            </div>
+                        </div>
+                        <hr class="hr-end">
+                    </div>
+                </div>
+                <!-- contact -->
+                <div id="contact" class="contact">
+                    <h4>LIÊN HỆ</h4>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6494217043287!2d105.81043865107881!3d21.006685685941783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9c3c13531b%3A0xfacb600110eff244!2zNTEgUC4gUXVhbiBOaMOibiwgTmjDom4gQ2jDrW5oLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1645156448138!5m2!1svi!2s"
+                            width="100%" height="92%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- <script type="text/javascript" src="{{url('js/particles.js')}}"></script>
+    <script type="text/javascript" src="{{url('js/app.js')}}"></script> -->
     <script type="text/javascript" src="./js/particles.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
-
 </body>
 
 </html>
+<!-- <script type="text/javascript" src="{{url('js/jquery.js')}}"></script>
+<script type="text/javascript" src="{{url('js/turntable.js')}}"></script> -->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./turntable/js/turntable.js"></script>
+<script>
+    let ww = $(window).width();
+
+    let html_img = ``;
+    for (let index = 1; index < 29; index++) {
+        html_img += `<li data-img-src="./image/plant${index}.jpeg"></li>`;
+    }
+    $("#ul-html").html(html_img);
+    $("#myTurntable").turntable();
+    $(".about").addClass('show');
+    $(function () {
+        $('.click').on('click', function () {
+            $('.click').removeClass('active');
+            $(this).addClass('active');
+            let id = $(this).attr('id');
+            $('.description div').removeClass('show');
+
+            switch (Number(id)) {
+                case 1:
+                    if (ww > 992) {
+                        $(".about").addClass('show');
+                        $(".about").animate({
+                            right: '150px',
+                        });
+                    } else {
+                        document.getElementById('about').scrollIntoView(true);
+
+                    }
+                    break;
+                case 2:
+                    if (ww > 992) {
+                        $(".exp").addClass('show');
+                    } else {
+
+                        document.getElementById('exp').scrollIntoView(true);
+                    }
+                    break;
+                case 3:
+                    if (ww > 992) {
+                        $(".educa").addClass('show');
+                    } else {
+                        document.getElementById('educa').scrollIntoView(true);
+                    }
+                    break;
+                case 4:
+                    if (ww > 992) {
+                        $(".skill").addClass('show');
+                    } else {
+                        document.getElementById('skill').scrollIntoView(true);
+                    }
+                    break;
+                case 5:
+                    if (ww > 992) {
+                        $(".works").addClass('show');
+                    } else {
+                        document.getElementById('works').scrollIntoView(true);
+                    }
+                    break;
+                case 6:
+                    if (ww > 992) {
+                        $(".contact").addClass('show');
+                    } else {
+                        document.getElementById('contact').scrollIntoView(true);
+                    }
+                    break;
+                default:
+                    break;
+            }
+        });
+    });
+</script>

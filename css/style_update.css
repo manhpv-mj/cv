@@ -1,0 +1,383 @@
+:root {
+  --header-font: "Dangrek";
+  --main-font: "Dangrek";
+  --footer-font: "Dangrek";
+  --font-thin: 100;
+  --font-extra-light: 200;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --font-extra-bold: 800;
+  --font-black: 900;
+  --font-extra-black: 950;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+a {
+  color: #e6e6e6;
+  font-family: var(--main-font);
+  word-break: break-word;
+}
+
+.hr-start {
+  height: 30px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.hr-end {
+  height: 30px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.hr-main {
+  height: 30px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.hr-main:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block !important;
+}
+#particles-js {
+  background-image: url(../image/back.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.con-position {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: 70%;
+  height: 60%;
+}
+.row-title {
+  width: 25%;
+  color: #e6e6e6;
+  font-family: var(--main-font);
+}
+.row-content {
+  width: 70%;
+}
+
+/* Menu */
+
+.menu {
+  background-image: url(../image/background-black.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  height: 100%;
+}
+.menu .active {
+  background-image: url(../image/back_active.png);
+  background-size: contain;
+  border-color: #7feb00;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu ul li {
+  text-align: center;
+  width: 90%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2b2e33;
+}
+
+.menu ul li p {
+  font-size: 10px;
+  padding-top: 0.8em;
+}
+.menu ul li i {
+  margin-top: 0.8em;
+}
+
+.click {
+  cursor: pointer;
+}
+.works a:hover,
+.bottom-title li a:hover i,
+.bottom-dowload:hover i,
+.bottom-dowload:hover a,
+.click:hover i,
+.click:hover p {
+  color: #4664;
+}
+.menu .active:hover i,
+.menu .active:hover p {
+  color: #e6e6e6 !important;
+  font-style: normal;
+}
+
+/* Main */
+
+.main {
+  height: 100%;
+}
+.main .main-top {
+  background-image: url(../image/back-top-main.jpg);
+  background-size: cover;
+  height: 65%;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: flex-end;
+}
+.main .main-top .image-circle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-top .turntable {
+  height: 150px;
+  width: 150px;
+}
+.turntable {
+  display: inline-block;
+  margin: 0px;
+}
+.turntable ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.turntable ul li {
+  list-style-type: none;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.turntable img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #13151a;
+}
+
+.main .main-bottom {
+  height: 35%;
+  background-image: url(../image/background-black.jpeg);
+  background-size: cover;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-title ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 65%;
+}
+.bottom-dowload a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+/* Description */
+
+.description {
+  background-image: url(../image/background-black.jpeg);
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.exp,
+.educa,
+.skill,
+.works,
+.about,
+.contact {
+  display: none;
+  height: 95%;
+  width: 98%;
+}
+/* .exp::-webkit-scrollbar {
+  display: none;
+}
+
+.educa::-webkit-scrollbar {
+  display: none;
+}
+.works::-webkit-scrollbar {
+  display: none;
+}
+.about::-webkit-scrollbar {
+  display: none;
+}
+.works::-webkit-scrollbar {
+  display: none;
+}
+.contact::-webkit-scrollbar {
+  display: none;
+} */
+
+.con-position::-webkit-scrollbar {
+  display: none;
+}
+
+.table-column {
+  width: 100%;
+  padding-top: 2em;
+}
+.table-column .row-table {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+  overflow: hidden;
+}
+.contact {
+  overflow: hidden;
+}
+.map {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+  .row {
+    width: 90%;
+    height: 90%;
+  }
+  h4 {
+    text-align: center;
+    padding: 2em 0;
+  }
+  .con-position {
+    overflow: scroll;
+  }
+
+  .menu {
+    width: 90%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    height: auto;
+  }
+  .menu ul {
+    flex-direction: row;
+    padding-top: 20px;
+  }
+  .menu ul li {
+    height: auto;
+    width: 15%;
+  }
+  .main {
+    padding: 0;
+  }
+  .description {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    background: none;
+    margin-top: 1em;
+  }
+  .exp,
+  .educa,
+  .skill,
+  .works,
+  .about,
+  .contact {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 1em 0;
+    border-radius: 5px;
+    background-image: url(../image/background-black.jpeg);
+    background-size: cover;
+    width: 100%;
+  }
+  .description .map iframe {
+    height: 40em;
+  }
+  .table-column {
+    padding: 1.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu ul li p {
+    display: none;
+  }
+  .click {
+    height: 50px !important;
+  }
+  .menu ul li i {
+    margin: 0;
+  }
+}

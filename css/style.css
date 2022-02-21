@@ -1,148 +1,138 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    width: 100%;
-    height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #particles-js {
-    background-image: url(../image/nen1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden
+  background-image: url(../image/nen1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-
 .one {
-    border-radius: 0.5em;
-    background-color: #ffff;
-    height: 72%;
-    margin: 9.5em 0.5em 0em 0em;
+  border-radius: 0.5em;
+  background-color: #ffff;
+  height: 72%;
+  margin: 9.5em 0.5em 0em 0em;
 }
 
 .one:hover {
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
 .one .menu ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-
 .one .menu ul li {
-    font-size: 0.6em;
-    text-align: center;
-    color: black;
+  font-size: 0.6em;
+  text-align: center;
+  color: black;
 }
 
 .one .menu ul li:hover {
-    color: #0856c1;
+  color: #0856c1;
 }
 
 .one .menu ul li p {
-    margin-top: 0.25em;
+  margin-top: 0.25em;
 }
 
 .two {
-    margin-top: 4em;
-    border-radius: 0.5em;
-    background-color: #ffff;
-    height: 105%;
-    z-index: 2;
+  margin-top: 4em;
+  border-radius: 0.5em;
+  background-color: #ffff;
+  height: 105%;
+  z-index: 2;
 }
 
-.two .anhbia img{
-    position: absolute;
-    width: 100%;
-    margin-left: -0.95em;
-    border-radius: 0.3em;
-    height: 22em;
+.two .anhbia img {
+  position: absolute;
+  width: 100%;
+  margin-left: -0.95em;
+  border-radius: 0.3em;
+  height: 22em;
 }
-.two .anh{
-    position: relative; 
-    top: 11.8em;
-    
-
+.two .anh {
+  position: relative;
+  top: 11.8em;
 }
-.two .anh img{
-    width: 37%;
-    border: 5px solid #ffff;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.two .anh img {
+  width: 37%;
+  border: 5px solid #ffff;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .two .title {
-    position: relative;
-    top: 13em;
-    text-align: center;
+  position: relative;
+  top: 13em;
+  text-align: center;
 }
 
 .two .title h3 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .two .title p {
-    text-align: center;
-    color: #0856c1;
+  text-align: center;
+  color: #0856c1;
 }
 
 .two .title ul {
-    width: 50%;
-    list-style: none;
-    margin: auto;
- 
+  width: 50%;
+  list-style: none;
+  margin: auto;
 }
 
 .two .title ul li {
-    padding: 0 1.5em 0 0;
-    float: left;
+  padding: 0 1.5em 0 0;
+  float: left;
 }
 
 .two .title ul li a {
-    color: black;
+  color: black;
 }
 
 .two .title ul li a:hover {
-    color: #0856c1;
-
+  color: #0856c1;
 }
 
 .two .dowload {
-    position: relative;
-    top: 18em;
-    margin: auto;
-    width: 28%;
-    /* right: 9em; */
-    /* text-align: center; */
+  position: relative;
+  top: 18em;
+  margin: auto;
+  width: 28%;
+  /* right: 9em; */
+  /* text-align: center; */
 }
 
 .two .dowload a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .two .dowload a:hover {
-    color: #0856c1;
-
+  color: #0856c1;
 }
 
 .three {
-    margin-top: 6em;
-    /* position: fixed; */
+  margin-top: 6em;
+  /* position: fixed; */
 }
 
 .three .about,
@@ -151,173 +141,169 @@ body {
 .skill,
 .works,
 .contact {
-    background-image: url("../image/4.jpg");
-    position: absolute;
-    width: 100%;
-    height: 95%;
-    z-index: 1;
-    font-family: monospace;
+  background-image: url("../image/4.jpg");
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  z-index: 1;
+  font-family: monospace;
 }
 
 .three h4 {
-    font-size: 1.8em;
-    text-align: center;
-    margin: 0.5em auto;
-    font-family: cursive !important;
-    color: #0856c1;
-
+  font-size: 1.8em;
+  text-align: center;
+  margin: 0.5em auto;
+  font-family: cursive !important;
+  color: #0856c1;
 }
 
 .three .about p {
-    font-family: monospace;
-    color: black;
-    padding: 1.5em 0 0 2em;
-    font-size: 1.1em;
+  font-family: monospace;
+  color: black;
+  padding: 1.5em 0 0 2em;
+  font-size: 1.1em;
 }
 
 .three table {
-    width: 80%;
-    margin: 2em auto;
+  width: 80%;
+  margin: 2em auto;
 }
 
 .three h3 {
-    color: #0856c1;
-    font-family: cursive;
-    font-size: 1.5em;
-
+  color: #0856c1;
+  font-family: cursive;
+  font-size: 1.5em;
 }
 
 .three table tr td strong {
-    font-family: initial;
-    color: #0856c1;
+  font-family: initial;
+  color: #0856c1;
 }
 
 .three .exp {
-    color: #0856c1;
+  color: #0856c1;
 }
 
 .three .exp ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .three .exp ul li {
-    margin: 2em 0 0 3em;
+  margin: 2em 0 0 3em;
 }
 
 .three .exp ul li p {
-    color: black;
+  color: black;
 }
 
 .three .educa {
-    color: #0856c1;
+  color: #0856c1;
 }
 
 .three .educa ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .three .educa ul li {
-    margin: 2em 0 0 3em;
+  margin: 2em 0 0 3em;
 }
 
 .three .educa ul li p {
-    padding: 1em 0 0 0;
-    color: black;
+  padding: 1em 0 0 0;
+  color: black;
 }
 
 .three .skill .progress {
-    width: 85%;
-    height: 0.6em;
-    margin: 1.5em 0 0 2em;
+  width: 85%;
+  height: 0.6em;
+  margin: 1.5em 0 0 2em;
 }
 
 .three .skill h3 {
-    font-size: 1em;
-    padding: 1em 0 0 2em;
+  font-size: 1em;
+  padding: 1em 0 0 2em;
 }
 
 .three .skill .all_skill {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 .three .works {
-    overflow-y: scroll;
-    color: #0856c1;
+  overflow-y: scroll;
+  color: #0856c1;
 }
 
 .three .works ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .three .works ul li {
-    margin: 2em 0 0 3em;
+  margin: 2em 0 0 3em;
 }
 
 .three .works ul li p {
-    padding: 1em 0 0 0;
-    color: black;
+  padding: 1em 0 0 0;
+  color: black;
 }
 
-.three .contact .map{
- width: 90%;
- margin: auto;
+.three .contact .map {
+  width: 90%;
+  margin: auto;
 }
 @media all and (max-width: 450px) {
-    @media all and (max-width: 450px) {
-        .two .title {
-            position: relative;
-            top: 45%;
-            text-align: center;
-        }
-        .two .anh {
-            position: relative;
-            top: 14.8em;
-        }
-        .two .title ul li {
-            padding: 0px 0.5em 0 0;
-            float: left;
-        }
-     }
- }
- @media only screen and (min-width: 450px) and (max-width: 1206px){
+  @media all and (max-width: 450px) {
     .two .title {
-        position: relative;
-        top: 16em;
-        text-align: center;
+      position: relative;
+      top: 45%;
+      text-align: center;
     }
     .two .anh {
-        position: relative;
-        top: 15.8em;
+      position: relative;
+      top: 14.8em;
     }
     .two .title ul li {
-        padding: 0 0.5em 0 0;
-        float: left;
+      padding: 0px 0.5em 0 0;
+      float: left;
     }
- }
- @media only screen and (min-width: 450px) and (max-width: 768px){
-    .two .title ul {
-        width: 33%;
-        list-style: none;
-        margin: auto;
-     
-    }
- }
- @media all and (max-width: 768px) {
-     .one{
-       height:25em;
-     }
-     .two{
-        height:35em ;
-     }
- }
- @media all and (max-width: 300px) {
-    .two .title {
-        position: relative;
-        top: 50%;
-        text-align: center;
-    }
- }
-
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 1206px) {
+  .two .title {
+    position: relative;
+    top: 16em;
+    text-align: center;
+  }
+  .two .anh {
+    position: relative;
+    top: 15.8em;
+  }
+  .two .title ul li {
+    padding: 0 0.5em 0 0;
+    float: left;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+  .two .title ul {
+    width: 33%;
+    list-style: none;
+    margin: auto;
+  }
+}
+@media all and (max-width: 768px) {
+  .one {
+    height: 25em;
+  }
+  .two {
+    height: 35em;
+  }
+}
+@media all and (max-width: 300px) {
+  .two .title {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+}
