@@ -28,7 +28,7 @@ h5,
 h6,
 i,
 a {
-  color: #e6e6e6;
+  color: #FFFFFF;
   font-family: var(--main-font);
   word-break: break-word;
 }
@@ -36,14 +36,14 @@ a {
 .hr-start {
   height: 30px;
   border-style: solid;
-  border-color: #e6e6e6;
+  border-color: #FFFFFF;
   border-width: 1px 0 0 0;
   border-radius: 20px;
 }
 .hr-end {
   height: 30px;
   border-style: solid;
-  border-color: #e6e6e6;
+  border-color: #FFFFFF;
   border-width: 0 0 1px 0;
   border-radius: 20px;
 }
@@ -51,7 +51,7 @@ a {
 .hr-main {
   height: 30px;
   border-style: solid;
-  border-color: #e6e6e6;
+  border-color: #FFFFFF;
   border-width: 1px 0 0 0;
   border-radius: 20px;
 }
@@ -61,7 +61,7 @@ a {
   height: 30px;
   margin-top: -31px;
   border-style: solid;
-  border-color: #e6e6e6;
+  border-color: #FFFFFF;
   border-width: 0 0 1px 0;
   border-radius: 20px;
 }
@@ -96,7 +96,7 @@ a {
 }
 .row-title {
   width: 25%;
-  color: #e6e6e6;
+  color: #FFFFFF;
   font-family: var(--main-font);
 }
 .row-content {
@@ -106,7 +106,7 @@ a {
 /* Menu */
 
 .menu {
-  background-image: url(../image/background-black.jpeg);
+  background-image: url(../image/back_update.jpeg);
   background-size: cover;
   border-radius: 5px;
   height: 100%;
@@ -115,6 +115,9 @@ a {
   background-image: url(../image/back_active.png);
   background-size: contain;
   border-color: #7feb00;
+}
+.menu .active i, .menu .active p{
+  color: #7feb00;
 }
 
 .menu ul {
@@ -162,7 +165,7 @@ a {
 }
 .menu .active:hover i,
 .menu .active:hover p {
-  color: #e6e6e6 !important;
+  color: #FFFFFF !important;
   font-style: normal;
 }
 
@@ -216,7 +219,7 @@ a {
 
 .main .main-bottom {
   height: 35%;
-  background-image: url(../image/background-black.jpeg);
+  background-image: url(../image/back_update.jpeg);
   background-size: cover;
   border-radius: 0 0 5px 5px;
   width: 100%;
@@ -240,14 +243,14 @@ a {
   width: 65%;
 }
 .bottom-dowload a {
-  color: #e6e6e6;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 /* Description */
 
 .description {
-  background-image: url(../image/background-black.jpeg);
+  background-image: url(../image/back_update.jpeg);
   background-size: cover;
   border-radius: 5px;
   display: flex;
@@ -359,7 +362,7 @@ a {
     height: auto;
     margin: 1em 0;
     border-radius: 5px;
-    background-image: url(../image/background-black.jpeg);
+    background-image: url(../image/back_update.jpeg);
     background-size: cover;
     width: 100%;
   }
